@@ -1,1 +1,1 @@
-Personal site coming soon
+Personal site: duraymontague.github.io — reflections on energy, governance, history, and sovereignty.
