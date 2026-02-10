@@ -57,7 +57,22 @@
       padding-left: 0;
     }
     ul li {
-      margin-bottom: 1em;
+      margin-bottom: 2em;
+      padding-bottom: 1em;
+      border-bottom: 1px solid #ddd;
+    }
+    .post-title {
+      font-size: 1.4em;
+      margin: 0 0 0.3em;
+    }
+    .post-date {
+      color: #666;
+      font-size: 0.9em;
+      margin: 0 0 0.5em;
+    }
+    .post-teaser {
+      color: #444;
+      font-size: 1.05em;
     }
     footer {
       text-align: center;
@@ -68,7 +83,7 @@
   </style>
 </head>
 <body>
-  <img src="profile.jpg" alt="DuRay Montague" class="profile"> <!-- Upload your photo to repo as profile.jpg -->
+  <img src="profile.jpg" alt="DuRay Montague" class="profile">
   <h1>DuRay Montague</h1>
   <p class="tagline">History • Technology • Governance • Reflections</p>
 
@@ -79,24 +94,29 @@
 
   <div class="section">
     <h2>Recent Thoughts</h2>
+
+    <!-- Latest Post at the top -->
+    <div style="margin-bottom: 2.5em;">
+      <a href="nancy-guthrie.html">
+        <img src="images/sheriff-nanos-profile.jpg" alt="Pima County Sheriff Chris Nanos" class="thumbnail">
+      </a>
+      <h3 class="post-title">
+        <a href="nancy-guthrie.html">Nancy Guthrie: Old-School Detectives in a New Kind of Chaos</a>
+      </h3>
+      <p class="post-date">February 10, 2026</p>
+      <p class="post-teaser">Overlooking the dusty glow of the Phoenix-area Arizona landscape, detectives search for the missing Nancy Guthrie... (read more)</p>
+    </div>
+
+    <!-- Older entries below -->
     <ul>
       <li>
-        <a href="thoughts/worship-in-peace-feb-2026.html">America was predicated on worship in peace (Feb 2, 2026)</a>
+        <h3 class="post-title">
+          <a href="thoughts/worship-in-peace-feb-2026.html">America was predicated on worship in peace</a>
+        </h3>
+        <p class="post-date">February 2, 2026</p>
       </li>
-      <!-- Add more <li> entries here later -->
+      <!-- Add more <li> here as you create new posts -->
     </ul>
-  </div>
-
-  <div class="section">
-    <h2>Latest Post</h2>
-    <p>
-      <a href="nancy-guthrie.html">
-        <img src="nanos(1).jpg" alt="Pima County Sheriff Chris Nanos" class="thumbnail">
-        Nancy Guthrie: Old-School Detectives in a New Kind of Chaos
-      </a>
-      <br>
-      <small>February 10, 2026</small>
-    </p>
   </div>
 
   <footer>
