@@ -1,130 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DuRay Montague</title>
-  <style>
-    body {
-      font-family: 'Georgia', serif;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      background: #f8f5f0;
-      color: #1a1a1a;
-      line-height: 1.7;
-    }
-    h1 {
-      font-size: 2.8em;
-      margin-bottom: 0.2em;
-      text-align: center;
-    }
-    .tagline {
-      font-style: italic;
-      color: #555;
-      margin-bottom: 3em;
-      text-align: center;
-    }
-    .section {
-      margin-bottom: 4em;
-    }
-    img.profile {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      object-fit: cover;
-      display: block;
-      margin: 0 auto 20px;
-    }
-    img.thumbnail {
-      max-width: 200px;
-      border-radius: 8px;
-      margin-bottom: 10px;
-      display: block;
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    ul li {
-      margin-bottom: 2em;
-      padding-bottom: 1em;
-      border-bottom: 1px solid #ddd;
-    }
-    .post-title {
-      font-size: 1.4em;
-      margin: 0 0 0.3em;
-    }
-    .post-date {
-      color: #666;
-      font-size: 0.9em;
-      margin: 0 0 0.5em;
-    }
-    .post-teaser {
-      color: #444;
-      font-size: 1.05em;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #666;
-      margin-top: 4em;
-    }
-  </style>
-</head>
-<body>
-  <img src="profile.jpg" alt="DuRay Montague" class="profile">
-  <h1>DuRay Montague</h1>
-  <p class="tagline">History • Technology • Governance • Reflections</p>
+<div class="section">
+  <h2>Recent Thoughts</h2>
 
-  <div class="section">
-    <h2>About</h2>
-    <p>Building ideas at the intersection of civilizational energy, personal sovereignty, and governance. Philadelphia-based.</p>
-  </div>
-
-  <div class="section">
-    <h2>Recent Thoughts</h2>
-
-    <!-- Latest Post at the top -->
-    <div style="margin-bottom: 2.5em;">
-      <a href="nancy-guthrie.html">
-        <img src="nanos(1).jpg" alt="Pima County Sheriff Chris Nanos" class="thumbnail">
-      </a>
-      <h3 class="post-title">
-        <a href="nancy-guthrie.html">Nancy Guthrie: Old-School Detectives in a New Kind of Chaos</a>
-      </h3>
-      <p class="post-date">February 10, 2026</p>
-      <p class="post-teaser">Overlooking the dusty glow of the Phoenix-area Arizona landscape, detectives search for the missing Nancy Guthrie... (read more)</p>
-    </div>
-
-    <!-- Older entries below -->
-    <ul>
-      <li>
-        <h3 class="post-title">
-          <a href="thoughts/worship-in-peace-feb-2026.html">America was predicated on worship in peace</a>
-        </h3>
-        <p class="post-date">February 2, 2026</p>
-      </li>
-      <!-- Add more <li> here as you create new posts -->
-    </ul>
-  </div>
-
-  <footer>
-    <p>© 2026 DuRay Montague</p>
-    <p>
-      <a href="https://www.facebook.com/duraymontague">Facebook</a> •
-      <a href="mailto:contact@duraymontague.com">Email</a>
+  <!-- Latest Post – floated image + single link -->
+  <div style="margin-bottom: 3em; border-bottom: 1px solid #ddd; padding-bottom: 2em;">
+    <a href="nancy-guthrie.html">
+      <img src="images/nanos(1).jpg" alt="Pima County Sheriff Chris Nanos" class="thumbnail" style="float: left; margin: 0 20px 15px 0;">
+    </a>
+    <h3 class="post-title" style="margin-top: 0;">
+      <a href="nancy-guthrie.html">Nancy Guthrie: Old-School Detectives in a New Kind of Chaos</a>
+    </h3>
+    <p class="post-date">February 10, 2026</p>
+    <p class="post-teaser">
+      Overlooking the dusty glow of the Phoenix-area Arizona landscape, detectives search for the missing Nancy Guthrie... 
+      <a href="nancy-guthrie.html">(read more)</a>
     </p>
-  </footer>
-</body>
-</html>
+  </div>
+
+  <!-- Older post example -->
+  <div style="margin-bottom: 2em; border-bottom: 1px solid #ddd; padding-bottom: 1em;">
+    <h3 class="post-title">
+      <a href="thoughts/worship-in-peace-feb-2026.html">America was predicated on worship in peace</a>
+    </h3>
+    <p class="post-date">February 2, 2026</p>
+  </div>
+
+  <!-- Add more here as needed -->
+</div>
